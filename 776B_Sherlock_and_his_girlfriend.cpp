@@ -20,6 +20,6 @@ int main(){
     }
     cout << *max_element(vec.begin(),vec.end()) << endl;
     for(int i = 2; i < q;i++){
-        cout << vec[i] << ' ';
+        cout << vec[i] << " ";
     }
 }
